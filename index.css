@@ -906,11 +906,11 @@ footer a:hover{
     color: rgb(69, 69, 69);
 }
 
-@media (max-width : 1600px){
+@media (max-width : 1500px) {
     .leftfader{
-        display : none;
+        opacity: 0;
     }
     .rightfader{
-        diaplay : none;
+        opacity: 0;
     }
 }
