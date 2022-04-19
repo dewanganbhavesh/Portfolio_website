@@ -890,4 +890,16 @@ footer a:hover{
     #right_resume{
         display: block;
     }
+        .exp_bg div h4{
+        color: white;
+    }
+    .exp_bg div h4 a{
+        color: white;
+    }
+    .extra_text{
+        color: white;
+    }
+    #student_detaill{
+        top: 38rem;
+    }
 }
