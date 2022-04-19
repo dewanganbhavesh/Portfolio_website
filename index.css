@@ -121,6 +121,10 @@ a{
     filter: contrast(1);
 }
 
+#right_resume{
+    display: none;
+}
+
 
 #main{
     display: flex;
@@ -883,16 +887,7 @@ footer a:hover{
     #centre{
         width: 91rem;
     }
-    .exp_bg div h4{
-        color: white;
-    }
-    .exp_bg div h4 a{
-        color: white;
-    }
-    .extra_text{
-        color: white;
-    }
-    #student_detaill{
-        top: 38rem;
+    #right_resume{
+        display: block;
     }
 }
