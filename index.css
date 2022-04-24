@@ -153,7 +153,7 @@ a {
     top: 0;
     left: 0;
     position: absolute;
-    background-image: url(/moon.png);
+    background-image: url(moon.png);
 }
 .dark_theme_changer{
     /* border: 1px solid red; */
@@ -173,7 +173,7 @@ a {
     top: 0;
     left: 0;
     position: absolute;
-    background-image: url(/sun.png);
+    background-image: url(sun.png);
     filter: invert(0.7);
 }
 
