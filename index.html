@@ -10,17 +10,17 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="container">
         <div id="left-bar" class="">
-            <!-- <a href="#"><img id="hamburger" class="image" src="/images/icons/list.png" alt=""></a> -->
+            <!-- <a href="#"><img loading="lazy" id="hamburger" class="image" src="/images/icons/list.png" alt=""></a> -->
             <!-- <h2>hii this is just a text</h2> -->
-            <a href="https://dewanganbhavesh.github.io/Portfolio_website/" id="logo"><img class="image" src="BD_logo.png" alt="Error loading the image"></a>
+            <a href="https://dewanganbhavesh.github.io/Portfolio_website/" id="logo"><img loading="lazy" class="image" src="BD_logo.png" alt="Error loading the image"></a>
             <ul>
-                <li><a class="small_icons" href="#skills"><img src="skills.png" alt="Error loading the image"><div class="hover_text_left-bar">Skills</div></a></li>
-                <li><a class="small_icons" href="#experiences"><img src="exp.png" alt="Error loading the image"><div class="hover_text_left-bar">Experiences</div></a></li>
-                <li><a class="small_icons" href="#projects"><img src="project-management.png" alt="Error loading the image"><div class="hover_text_left-bar">Projects</div></a></li>
-                <!-- <li><a class="small_icons" href="#interests"><img src="/images/icons/interests.png" alt="Error loading the image"><div class="hover_text_left-bar">Interests</div></a></li> -->
-                <li><a class="small_icons" href="Dewangan_Bhavesh_Resume.pdf" download="Dewangan_Bhavesh_Resume.pdf"><img src="resume_blue.png" alt="Error loading the image"><div class="hover_text_left-bar">My Resume</div></a></li>
+                <li><a class="small_icons nav_icon" href="#skills"><img loading="lazy" src="skills.png" alt="Error loading the image"><div class="hover_text_left-bar">Skills</div></a></li>
+                <li><a class="small_icons nav_icon" href="#experiences"><img loading="lazy" src="exp.png" alt="Error loading the image"><div class="hover_text_left-bar">Experiences</div></a></li>
+                <li><a class="small_icons nav_icon" href="#projects"><img loading="lazy" src="project-management.png" alt="Error loading the image"><div class="hover_text_left-bar">Projects</div></a></li>
+                <!-- <li><a class="small_icons" href="#interests"><img loading="lazy" src="/images/icons/interests.png" alt="Error loading the image"><div class="hover_text_left-bar">Interests</div></a></li> -->
+                <li><a class="small_icons" href="Dewangan_Bhavesh_Resume.pdf" download="Dewangan_Bhavesh_Resume.pdf"><img loading="lazy" src="resume_blue2.png" alt="Error loading the image"><div class="hover_text_left-bar">My Resume</div></a></li>
             </ul>
         </div>
         <div id="main">
@@ -28,144 +28,148 @@
             <section id="centre">
                 <div id="content">
                     <div id="landing_page" class="page">
+                        <div id="theme_changer" class="theme_changer" onclick="theme_change()"></div>
                         <h1 id="main_name">Bhavesh &nbsp;&nbsp;Dewangan</h1>
                             <div id="typing_text">
-                                <div class="static_text">I'm a</div>
-                                <ul class="dynamic_text">
-                                    <li><span>Web Designer</span></li>
-                                    <li><span>Video Editor</span></li>
-                                    <li><span>Graphics Designer</span></li>
+                                <div id="static_text">I'm a</div>
+                                <ul id="dynamic_text">
+                                    <li><span class="dtls">Web Designer</span></li>
+                                    <li><span class="dtls">Video Editor</span></li>
+                                    <li><span class="dtls">Graphics Designer</span></li>
+                                    <li><span class="dtls">Anime Weeb</span></li>
+                                    <li><span class="dtls">Crypto Enthusiast</span></li>
+                                    <li><span class="dtls">Noob Gamer</span></li>
                                 </ul>
                             </div>
                         <h3 id="student_detaill"> & Mechanical Engineering student @ <a href="http://www.nitrr.ac.in/" target="_blank">NIT Raipur</a></h3> 
                     </div>
                     <div id="skills" class="page">
-                        <h1>Skills</h1>
+                        <h1 class="page_head">Skills</h1>
                         <div id="skills_container">
                             <div id="mech" class="skillset">
-                                <h2>Mechanical</h2>
+                                <h2 class="skillset_head" >Mechanical</h2>
                                 <div>
-                                    <h4>CAD (SolidWorks)</h4><div class="bar"><span id="solidworks"></span></div>
-                                    <h4>Analysis (ANSYS)</h4><div class="bar"><span id="ansys"></span></div>
+                                    <h4 class="skill_name">CAD (SolidWorks)</h4><div class="bar"><span id="solidworks"></span></div>
+                                    <h4 class="skill_name">Analysis (ANSYS)</h4><div class="bar"><span id="ansys"></span></div>
                                 </div>
                             </div>
                             <div class="division"></div>
                             <div id="programming" class="skillset">
-                                <h2>Programming</h2>
+                                <h2 class="skillset_head" >Programming</h2>
                                 <div>
-                                    <h4>HTML</h4><div class="bar"><span id="html"></span></div>
-                                    <h4>CSS</h4><div class="bar"><span id="css"></span></div>
-                                    <h4>JavaScript</h4><div class="bar"><span id="javascript"></span></div>
-                                    <h4>Node JS</h4><div class="bar"><span id="node_js"></span></div>
-                                    <h4>Angular & MongoDB</h4><div class="bar"><span id="angular_mongodb"></span></div>
-                                    <h4>C / C++</h4><div class="bar"><span id="cpp"></span></div>
-                                    <h4>Python</h4><div class="bar"><span id="python"></span></div>
+                                    <h4 class="skill_name">HTML</h4><div class="bar"><span id="html"></span></div>
+                                    <h4 class="skill_name">CSS</h4><div class="bar"><span id="css"></span></div>
+                                    <h4 class="skill_name">JavaScript</h4><div class="bar"><span id="javascript"></span></div>
+                                    <h4 class="skill_name">Node JS</h4><div class="bar"><span id="node_js"></span></div>
+                                    <h4 class="skill_name">Angular & MongoDB</h4><div class="bar"><span id="angular_mongodb"></span></div>
+                                    <h4 class="skill_name">C / C++</h4><div class="bar"><span id="cpp"></span></div>
+                                    <h4 class="skill_name">Python</h4><div class="bar"><span id="python"></span></div>
                                 </div>
                             </div>
                             <div class="division"></div>
                             <div id="other" class="skillset">
-                                <h2>Others</h2>
+                                <h2 class="skillset_head" >Others</h2>
                                 <div>
-                                    <h4>Adobe After Effects</h4><div class="bar"><span id="aftereffects"></span></div>
-                                    <h4>Adobe PhotoShop</h4><div class="bar"><span id="photoshop"></span></div>
-                                    <h4>Premiere Pro</h4><div class="bar"><span id="premiere_pro"></span></div>
-                                    <h4>PicsArt</h4><div class="bar"><span id="picsart"></span></div>
-                                    <h4>Japanese (language)</h4><div class="bar"><span id="japanese"></span></div>
+                                    <h4 class="skill_name">Adobe After Effects</h4><div class="bar"><span id="aftereffects"></span></div>
+                                    <h4 class="skill_name">Adobe PhotoShop</h4><div class="bar"><span id="photoshop"></span></div>
+                                    <h4 class="skill_name">Premiere Pro</h4><div class="bar"><span id="premiere_pro"></span></div>
+                                    <h4 class="skill_name">PicsArt</h4><div class="bar"><span id="picsart"></span></div>
+                                    <h4 class="skill_name">Japanese (language)</h4><div class="bar"><span id="japanese"></span></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="experiences" class="page">
-                        <h1>Experience</h1>
+                        <h1 id="page_head" class="page_head">Experience</h1>
                         <div id="experiences_container">
                             <div class="experience fb" id="formula_bharat">
                                 <div class="exp_bg">
-                                    <h2><a href="https://www.formulabharat.com/" target="_blank">Formula Bharat</a></h2>
+                                    <h2><a class="exp_title" href="https://www.formulabharat.com/" target="_blank">Formula Bharat</a></h2>
                                     <div>
-                                        <h4 class="exp_detaill"> &nbsp;&nbsp;&nbsp;&nbsp; Worked as a Technical team member in Brakes Sub-system for an Formula event.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Joined the collage team <a href="https://www.instagram.com/nitrr_racing/" target="_blank">'United Racing'</a> which was lead by <a href="https://www.instagram.com/_priyanshu_ap/" target="_blank">Mr. Priyanshu Agarwal</a>. There i helped in improving different components of a hydraulic brake system under the guidence of <a href="https://www.instagram.com/_.rashi18._/" target="_blank">Rashi Sahu</a>. It was our first time in this event but we still secured the 7th rank. <br><br>&bull; Designed CAD models on Solidworks software.<br>&bull; Performed static and thermal analysis on Cad models using Ansys</h4>
-                                        <img class="left" src="fb_vehicle.png" alt=""> 
+                                        <h4 class="exp_detaill"> &nbsp;&nbsp;&nbsp;&nbsp; Worked as a Technical team member in Brakes Sub-system for an Formula event.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Joined the collage team <a class="person_tag" href="https://www.instagram.com/nitrr_racing/" target="_blank">'United Racing'</a> which was lead by <a class="person_tag" href="https://www.instagram.com/_priyanshu_ap/" target="_blank">Mr. Priyanshu Agarwal</a>. There i helped in improving different components of a hydraulic brake system under the guidence of <a class="person_tag" href="https://www.instagram.com/_.rashi18._/" target="_blank">Rashi Sahu</a>. It was our first time in this event but we still secured the 7th rank. <br><br>&bull; Designed CAD models on Solidworks software.<br>&bull; Performed static and thermal analysis on Cad models using Ansys</h4>
+                                        <img loading="lazy" class="left" src="fb_vehicle.png" alt=""> 
                                     </div>
                                 </div>
                             </div>
                             <div class="experience coursite" id="coursite">
                                 <div class="exp_bg">
-                                    <h2><a href="https://www.instagram.com/coursite.in/" target="_blank">Coursite</a></h2>
+                                    <h2><a class="exp_title" href="https://www.instagram.com/coursite.in/" target="_blank">Coursite</a></h2>
                                     <div>
-                                        <h4 class="exp_detaill">Frelance working experience in an emerging Ed-Tech Startup 'Coursite'. <br><br> &nbsp;&nbsp;&nbsp;&nbsp; Two passionate and ambitious engineers <a href="https://www.instagram.com/_sahuji__/" target="_blank">Mr. Hemant Sahu</a> & <a href="https://www.instagram.com/mathsmania2022/" target="_blank">Mr. Abhimanyu Rai</a> on their vision to spread awareness about Financial Freedom among the youth started this company and made me a part of their video editing team where I met amazing people like <a href="https://www.instagram.com/rishabh_vsr/" target="_blank">Rishabh Singh</a>, <a href="https://www.instagram.com/loharlokeshh/" target="_blank">Lokesh Lohar</a>, <a target="_blank">Deep Chandrakar</a>, <a href="https://www.instagram.com/aman_sukhdave/" target="_blank">Aman Sukhdev</a> & <a href="https://www.instagram.com/just_being_sid/" target="_blank">SaiSiddharth</a> and learned alot from them.</h4>
-                                        <div class="extra_text"><br> &bull; Designed a Logo which represented the views of the company using Canva & Photoshop
+                                        <h4 class="exp_detaill">Frelance working experience in an emerging Ed-Tech Startup 'Coursite'. <br><br> &nbsp;&nbsp;&nbsp;&nbsp; Two passionate and ambitious engineers <a class="person_tag" href="https://www.instagram.com/_sahuji__/" target="_blank">Mr. Hemant Sahu</a> & <a class="person_tag" href="https://www.instagram.com/mathsmania2022/" target="_blank">Mr. Abhimanyu Rai</a> on their vision to spread awareness about Financial Freedom among the youth started this company and made me a part of their video editing team where I met amazing people like <a class="person_tag" href="https://www.instagram.com/rishabh_vsr/" target="_blank">Rishabh Singh</a>, <a class="person_tag" href="https://www.instagram.com/loharlokeshh/" target="_blank">Lokesh Lohar</a>, <a class="person_tag" "target="_blank">Deep Chandrakar</a>, <a class="person_tag" href="https://www.instagram.com/aman_sukhdave/" target="_blank">Aman Sukhdev</a> & <a class="person_tag" href="https://www.instagram.com/just_being_sid/" target="_blank">SaiSiddharth</a> and learned alot from them.</h4>
+                                        <div class="extra_text"><br id="extra_text_br"> &bull; Designed a Logo which represented the views of the company using Canva & Photoshop
                                         <br><br> &bull; I worked in After Effects, Filmora and Premiere Pro to edit the recorded video lectures</div>
-                                        <img src="Coursite_logo.jpg" alt="">
+                                        <img loading="lazy" src="Coursite_logo2.png" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="experience baja" id="baja">
                                 <div class="exp_bg">
-                                    <h2><a href="https://www.bajasae.net/" target="_blank">SAE BAJA</a></h2>
+                                    <h2><a class="exp_title" href="https://www.bajasae.net/" target="_blank">SAE BAJA</a></h2>
                                     <div>
-                                        <h4 class="exp_detaill">&nbsp;&nbsp;&nbsp;&nbsp;Contributed as a member of the Brake System for team <a href="https://www.instagram.com/nitrr_racing/" target="_blank">'IGNITRR 3.0'</a> for SAE Baja competetion. <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We designed an all-terrain vehicle which runs on electic power and take part in event with a team of 28 members lead by <a href="https://www.instagram.com/jyotimoy199/" target="_blank">Mr.Jyotimoy Ghosh</a>. Though i was in the Brakes department I also worked in the other parts of the vehicle. I also had a chance to make and give presentations about a ATV manufacturing plant explaining all the factors for a profitable business.</h4>
-                                        <img class="left" src="baja_vehicle.png" alt="">
+                                        <h4 class="exp_detaill">&nbsp;&nbsp;&nbsp;&nbsp;Contributed as a member of the Brake System for team <a class="person_tag" href="https://www.instagram.com/nitrr_racing/" target="_blank">'IGNITRR 3.0'</a> for SAE Baja competetion. <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We designed an all-terrain vehicle which runs on electic power and take part in event with a team of 28 members lead by <a class="person_tag" href="https://www.instagram.com/jyotimoy199/" target="_blank">Mr.Jyotimoy Ghosh</a>. Though i was in the Brakes department I also worked in the other parts of the vehicle. I also had a chance to make and give presentations about a ATV manufacturing plant explaining all the factors for a profitable business.</h4>
+                                        <img loading="lazy" class="left" src="baja_vehicle.png" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div id="projects" class="page">
-                        <h1>Projects</h1>
+                        <h1 class="page_head">Projects</h1>
                         <div id="project_container">
-                            <div class="leftfader"></div>
+                            <div id="leftfader"></div>
                             <div class="project_card" id="analog_clock">
-                                <a href="https://dewanganbhavesh.github.io/web_d_project_analog_clock/" target="_blank"><img class="card_image" src="Analog_clock.jpg" alt=""></a>
+                                <a href="https://dewanganbhavesh.github.io/web_d_project_analog_clock/" target="_blank"><img loading="lazy" class="card_image" src="Analog_clock.jpg" alt=""></a>
                                 <h2 class="card_title">Analog Clock</h2>
                                 <h4 class="card_description">Time showing analog clock made with pure HTML, CSS & JS. <br><br>&bull; It has Hour, Minutes & Seconds hand.</h4>
                             </div>
                             <div class="project_card" id="snake_game">
-                                <a href="https://dewanganbhavesh.github.io/web_d_project_snake_game/" target="_blank"><img class="card_image" src="snake_game.png" alt=""></a>
+                                <a href="https://dewanganbhavesh.github.io/web_d_project_snake_game/" target="_blank"><img loading="lazy" class="card_image" src="snake_game.png" alt=""></a>
                                 <h2 class="card_title">Snake Game</h2>
                                 <h4 class="card_description">SnakeMania : A basic but fun snake game which we'll used to play in old phones. <br><br>&bull; It has 3 difficulty settings to choose from Easy, Medium & advance. <br><br>&bull; Make a huge High Score and ask your friends if they can beat you...</h4>
                             </div>
                             <div class="project_card" id="dianasaur_game">
-                                <a href="https://dewanganbhavesh.github.io/web_d_project_dianasaur_game/" target="_blank"><img class="card_image" src="dinasaur_game.jpg" alt=""></a>
+                                <a href="https://dewanganbhavesh.github.io/web_d_project_dianasaur_game/" target="_blank"><img loading="lazy" class="card_image" src="dinasaur_game.jpg" alt=""></a>
                                 <h2 class="card_title">Dianasaur Game</h2>
                                 <h4 class="card_description">It is just the visually enhanced version of that basic jumping game we play when we try to open a website without internet.</h4>
                             </div>
                             <div class="project_card" id="gym_landing_page">
-                                <a href="https://dewanganbhavesh.github.io/web_d_project_gym_landing_page/" target="_blank"><img class="card_image" src="landing_page_for_gym.jpg" alt=""></a>
+                                <a href="https://dewanganbhavesh.github.io/web_d_project_gym_landing_page/" target="_blank"><img loading="lazy" class="card_image" src="landing_page_for_gym.jpg" alt=""></a>
                                 <h2 class="card_title">Gym Landing page</h2>
                                 <h4 class="card_description">Landing page for a new gym.In which you can fill your detaills and register for membership</h4>
                             </div>
                             <div class="project_card" id="cool_bg">
-                                <a href="https://dewanganbhavesh.github.io/web_d_project_cool_bg1/" target="_blank"><img class="card_image coolbgproject" src="cool_bg1.png" alt=""></a>
-                                <a href="https://dewanganbhavesh.github.io/web_d_project_cool_bg2/" target="_blank"><img class="card_image coolbgproject"  src="cool_bg2.png" alt=""></a>
+                                <a href="https://dewanganbhavesh.github.io/web_d_project_cool_bg1/" target="_blank"><img loading="lazy" class="card_image coolbgproject" src="cool_bg1.png" alt=""></a>
+                                <a href="https://dewanganbhavesh.github.io/web_d_project_cool_bg2/" target="_blank"><img loading="lazy" class="card_image coolbgproject"  src="cool_bg2.png" alt=""></a>
                                 <h2 class="card_title">Cool Backgrounds</h2>
                                 <h4 class="card_description">2 cool & fun backgrounds made with HTML, CSS & JS only. It can be used in any website to make it amazing.</h4>
                             </div>
                             <div class="project_card" id="lamborghini">
-                                <a href="https://dewanganbhavesh.github.io/web_d_project_moving_lamborghini/" target="_blank"><img class="card_image" src="moving_laborghini.jpg" alt=""></a>
+                                <a href="https://dewanganbhavesh.github.io/web_d_project_moving_lamborghini/" target="_blank"><img loading="lazy" class="card_image" src="moving_laborghini.jpg" alt=""></a>
                                 <h2 class="card_title">Moving Lamborghini</h2>
                                 <h4 class="card_description">Just a Lamborghini Huracan running in a road. <br><br>&bull; You can contorl it's speed using 3 buttons.</h4>
                             </div>
                             <div class="project_card" id="tranparant_login_page">
-                                <a href="https://dewanganbhavesh.github.io/web_d_project_login_page/" target="_blank"><img class="card_image" src="transparent_login_page.png" alt=""></a>
+                                <a href="https://dewanganbhavesh.github.io/web_d_project_login_page/" target="_blank"><img loading="lazy" class="card_image" src="transparent_login_page.png" alt=""></a>
                                 <h2 class="card_title">Login Page</h2>
                                 <h4 class="card_description">A cool looking login page for any website. <br><br>&bull; It has 'username' and 'password' section to fill the credentials and login to your i'd.</h4>
                             </div>
                             <div class="project_card" id="food_website">
-                                <a href="https://dewanganbhavesh.github.io/web_d_project_food_website/" target="_blank"><img class="card_image" src="Demo_website_for_food_brand.jpg" alt=""></a>
+                                <a href="https://dewanganbhavesh.github.io/web_d_project_food_website/" target="_blank"><img loading="lazy" class="card_image" src="Demo_website_for_food_brand.jpg" alt=""></a>
                                 <h2 class="card_title">Food Website</h2>
                                 <h4 class="card_description">Demo website for a food brand like Dominos or Mcdonals. <br><br>&bull; It shows about the company, the services they provide and the all the different types of food available on their menu...</h4>
                             </div>
-                            <div class="rightfader"></div>
+                            <div id="rightfader"></div>
                         </div>
                     </div>
                     <footer>© Copyright | This page is created and managed by <a href="#">Bhavesh</a> since April 9th 2022</footer>
                 </div>
                 <div id="right-bar" class="">
                     <ul>
-                        <li><a class="small_icons" href="https://github.com/dewanganbhavesh" target="_blank"><img src="github-logo.png" alt="Error loading the image"></a></li>
-                        <li><a class="small_icons" href="https://in.linkedin.com/in/bhavesh-dewangan-9455661b8?trk=people-guest_people_search-card" target="_blank"><img src="linkedin.png" alt="Error loading the image"></a></li>
-                        <li><a class="small_icons" href="https://www.instagram.com/_dewanganbhavesh/" target="_blank"><img src="instagram.png" alt="Error loading the image"></a></li>
-                        <li><a class="small_icons" href="mailto:dewanganbhavesh0903@gmail.com" target="_blank"><img src="email.png" alt="Error loading the image"></a></li>
-                       <li><a class="small_icons" id="right_resume" href="Dewangan_Bhavesh_Resume.pdf" download="Dewangan_Bhavesh_Resume.pdf"><img src="resume_blue.png" alt="Error loading the image"></a></li>
+                        <li><a class="small_icons" href="https://github.com/dewanganbhavesh" target="_blank"><img class="contact_icon" loading="lazy" src="github-logo.png" alt="Error loading the image"></a></li>
+                        <li><a class="small_icons" href="https://in.linkedin.com/in/bhavesh-dewangan-9455661b8?trk=people-guest_people_search-card" target="_blank"><img class="contact_icon" loading="lazy" src="linkedin.png" alt="Error loading the image"></a></li>
+                        <li><a class="small_icons" href="https://www.instagram.com/_dewanganbhavesh/" target="_blank"><img class="contact_icon" loading="lazy" src="instagram.png" alt="Error loading the image"></a></li>
+                        <li><a class="small_icons" href="mailto:dewanganbhavesh0903@gmail.com" target="_blank"><img class="contact_icon" loading="lazy" src="email.png" alt="Error loading the image"></a></li>
+                       <li><a class="small_icons" id="right_resume" href="Dewangan_Bhavesh_Resume.pdf" download="Dewangan_Bhavesh_Resume.pdf"><img loading="lazy" src="resume_blue.png" alt="Error loading the image"></a></li>
                     </ul>
                 </div>
             </section>
