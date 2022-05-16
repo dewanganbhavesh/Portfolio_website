@@ -190,3 +190,5 @@ function theme_change() {
         }
 
 }
+
+theme_change();
